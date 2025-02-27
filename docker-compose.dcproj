@@ -15,4 +15,7 @@
     <None Include="docker-compose.yml" />
     <None Include=".dockerignore" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="src\ApplicationCore\ApplicationCore.csproj" />
+  </ItemGroup>
 </Project>
